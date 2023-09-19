@@ -112,11 +112,11 @@ while (stop == true)
                 try
                 {
                     double NumD;
-                    int Deg;
+                    double Deg;
                     Console.WriteLine("Введите число , которое нужно возвести в степень ");
                     NumD = Convert.ToDouble(Console.ReadLine());
                     Console.WriteLine("Введите степень числа");
-                    Deg = Convert.ToInt32(Console.ReadLine());
+                    Deg = Convert.ToDouble(Console.ReadLine());
                     Console.Write("Результат: ");
                     Console.WriteLine(Math.Pow(NumD, Deg));
                 }
